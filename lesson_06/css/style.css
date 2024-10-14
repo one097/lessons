@@ -1,0 +1,167 @@
+/* Підключення фрифтів */
+
+/* Google Fonts (Plugin) */
+/* @import url("https://fonts.googleapis.com/css?family=Manrope:regular,500,600,700&display=swap"); */
+
+/* Локальне підключення шрифтів */
+@import url("https://fonts.googleapis.com/css?family=Manrope:regular,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Epilogue:regular,800&display=swap");
+
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Основні стилі */
+body {
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden; /* clip */
+	/* ... */
+}
+
+.header {
+	padding-block: 10px;
+	padding-inline: 10px;
+	background: #141414;
+
+}
+.header_title {
+	font-family: 'Manrope';
+	font-weight: 700;
+	font-size: 50px;
+	text-align: center;
+	color: #6e2626;
+	text-transform: uppercase;
+	
+}
+.home {	
+	background-color: #141414;
+	text-align: center;
+	padding-block-end: 100px;
+}
+.home_back {
+	background: linear-gradient(180deg, #141414 0%, rgba(20, 20, 20, 0.00) 100%) left top / 100% 580px repeat-x, linear-gradient(180deg, rgba(20, 20, 20, 0.00) 0%, #141414 100%) left bottom / 100% 580px repeat-x, url(../img/Sub\ Container.png) center top / cover no-repeat;
+	padding-inline: 20px;
+	padding-block: 191px 200px;
+}
+.home_container {
+	max-inline-size: 1096px;
+	margin: auto;
+}
+.home_logo {
+	margin-block-end: 131px;
+}
+.home_title {
+	font-family: Manrope;
+	font-size: 58px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 150%;
+
+	color: #FFF;
+	margin-block-end: 14px;
+}
+.home_subtitle {
+	font-family: Manrope;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%;
+	margin-block-end: 50px;
+
+	color: #999;
+}
+.home_btn {
+	color: #FFF;
+	font-family: Manrope;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 150%;
+	padding-block: 18px;
+	padding-inline: 24px;
+	background-color: #E50000;
+	border-radius: 8px;
+}
+
+.home_btn span {
+	background: url("/img/Icon.svg") left no-repeat;
+	min-height: 28px;
+	padding: 30px;
+}
+
+
+
+
+
+.features {
+	padding-block: 100px;
+}
+.features_item h5 {
+	font-family: "Epilogue";
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 32px; 
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	color: #EF6D58;
+	margin-block-end: 20px;
+}
+.features_container {
+	max-width: 1173px;
+	margin-inline: auto;
+}
+.feature_items {
+	font-size: 0;
+	margin-inline: -86px;
+}
+.features_item {
+	width: 50%;
+	display: inline-block;
+	padding-inline: 86px;
+	vertical-align: top;
+}
+.features_content {
+
+}
+.features_title {
+	font-family: "Epilogue";
+	font-size: 56px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: 64px; 
+	letter-spacing: -1px;
+	color: #391400;
+	margin-block-end: 26px;
+}
+.features_subtitle {
+	font-family: "Epilogue";
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 32px;
+	color: #391400;
+	margin-block-end: 26px;
+}
+.features_list {}
+.features_list_item {
+	font-family: "Epilogue";
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 32px;
+	color: rgba(57, 20, 0, 0.64);
+	margin-block-end: 16px;
+}
+.features_list_item span {
+	background: url("/img/check.svg") left no-repeat;
+	min-height: 32px;
+	padding: 26px;
+}
+.features_list_item:last-child {
+	margin-block-end: 0;
+}
+.features_img {
+max-width: 529px;
+}
