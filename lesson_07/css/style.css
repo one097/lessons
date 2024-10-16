@@ -1,0 +1,439 @@
+/* Підключення фрифтів */
+
+/* Google Fonts (Plugin) */
+/* @import url("https://fonts.googleapis.com/css?family=Manrope:regular,500,600,700&display=swap"); */
+@import url("https://fonts.googleapis.com/css?family=DM+Sans:regular,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Epilogue:regular,700&display=swap");
+/* Локальне підключення шрифтів */
+
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Основні стилі */
+body {
+
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden; /* clip */
+	/* ... */
+}
+.header, footer {
+		background: #2c6de6d2;
+}
+.container {
+	max-width: 1140px;
+	margin: 0 auto;
+	padding: 30px;
+	font-weight: 700;
+	text-align: center;
+	font-size: 50px;
+	font-family: "Epilogue";
+	
+}
+.page {
+
+}
+
+
+
+
+
+
+
+
+.timeline {
+	padding-block: 106px;
+}
+.timeline__container {
+	max-inline-size: 1000px;
+	margin-inline: auto;
+}
+.timeline__items {
+	font-size: 0;
+}
+.timeline__items:not(:last-child) {
+	margin-bottom: 54px;
+}
+.timeline__body {
+	display: inline-block;
+	max-width: 630px;
+	vertical-align: top;
+}
+
+.timeline__body *:not(:last-child) {
+	margin-bottom: 8px;
+}
+
+.timeline__body h5 {
+	font-family: "DM Sans";
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 22px;
+	color: #4A3AFF;
+}
+.timeline__body h2 {
+	font-family: "DM Sans";
+	font-size: 42px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 54px;
+	color: #1E1B39;
+}
+.timeline__body p {
+	font-family: "DM Sans";
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 42px;
+	color: #6E6C83;
+}
+
+.timeline__items:nth-child(1) h2::after {
+	content: "🔎";
+	padding-left: 15px;
+
+}
+.timeline__items:nth-child(2) h2::after {
+	content: "💻";
+	padding-left: 15px;
+
+}
+.timeline__items:nth-child(3) h2::after {
+	content: "🚀";
+	padding-left: 15px;
+
+}
+.timeline__items {
+}
+.timeline__number {
+	min-width: 218px;
+	min-height: 218px;
+	background: url("../img/cirlce.svg") no-repeat; 
+	border-radius: 50%;
+	display: inline-block;
+	margin-inline-end: 40px;
+	align-content: center;
+}
+
+.timeline__number h1 {
+	font-family: "DM Sans";
+	font-size: 88px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 95px;
+	text-align: center;
+	color: #4A3AFF;
+}
+/* .timeline__number:first-child {
+	font-family: "DM Sans";
+	font-size: 88px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 95px;
+	text-align: center;
+	color: #4A3AFF;
+} */
+
+/* .timeline__items::before {
+	content: "01";
+	width: 218px;
+	height: 218px;
+	border-radius: 50%;
+	background-color: #6E6C83;
+	display: inline-block;
+
+
+	font-family: "DM Sans";
+	font-size: 88px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 95px;
+
+
+} */
+
+
+
+
+.pricing {
+	padding: 100px;
+}
+.pricing_container {
+	max-width: 544px;
+	margin-inline: auto;
+}
+.pricing__card {
+	min-width: 543px;
+	min-height: 617px;
+	border-radius: 56px;
+	background: #F0F0F6;
+	padding: 24px;
+}
+.pricing__card-block {
+	color: #FFF;
+	text-align: center;
+	border-radius: 34px;
+	background: #4A3AFF;
+	padding-block: 45px;
+	margin-block-end: 35px;
+}
+.pricing__card-list {}
+.card__list-item {
+	font-family: "DM Sans";
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 38px;
+	color: #1E1B39;
+}
+
+.card__list-item:not(:last-child) {
+	margin-bottom: 26px;
+}
+
+.card__list-item::before {
+	content: "";
+	width: 36px;
+	height: 36px;
+	background: url(../img/check.svg) no-repeat;
+	padding-left: 46px;
+	vertical-align: top;
+}
+
+.pricing__card-block h4 {
+	font-family: "DM Sans";
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 32px;
+	margin-bottom: 2px;
+}
+
+.pricing__card-block h2 {
+	font-family: "DM Sans";
+	font-size: 116px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 120px; 
+}
+
+.pricing__card-block p {
+	font-family: "DM Sans";
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 22px;
+	opacity: 0.6;
+}
+
+
+.about {}
+.about__img {
+	text-align: center;
+	margin-block-end: 74px;
+}
+.about__container {
+	max-width: 570px;
+	margin-inline: auto;
+}
+.about__body {}
+.about__body h4 {
+	font-family: "Epilogue";
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 32px;
+	color: #391400;
+	margin-block-end: 32px;
+}
+.about__body h2 {
+	font-family: "Epilogue";
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 32px;
+	margin-block-end: 35px;
+	color: #391400;
+}
+.about__body p {
+	font-family: "Epilogue";
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 32px;
+	color: rgba(57, 20, 0, 0.64);
+}
+.about__body-title {
+	margin-block-end: 51px;
+}
+.about__section {
+	margin-block-end: 65px;
+}
+.about__section ol li {
+	list-style: decimal;
+}
+.about__section ol {
+	padding-left: 20px;
+}
+
+.about__list li {
+	font-family: "Epilogue";
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 32px;
+	color: #391400;
+}
+.about__list {
+	margin-block-end: 32px;
+}
+.about__list-item::before {
+	content: "";
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: #EF6D58;
+	vertical-align: middle;
+	margin-right: 13px;
+}
+.about__block {
+	border-radius: 6px;
+	background: #F9E5DA;
+	padding: 32px;
+}
+
+.about__block p {
+	max-width: 426px;
+	display: inline-block;
+	padding-left: 32px;
+}
+
+
+.about__block-text::before {
+	content: "";
+	width: 48px;
+	height: 36px;
+	background: url(../img/Shape.svg) no-repeat;
+	vertical-align: top;
+}
+
+
+
+/* GAME */
+
+.game {
+	background-color: #000000d2;
+	margin-top: 100px;
+}
+.game h1 {
+	font-size: 50px;
+	font-weight: 700;
+	color: #661409;
+	font-family: "DM Sans";
+	text-align: center;
+}
+.game_container {
+	max-width: 630px;
+	margin-inline: auto;
+}
+.line {
+		background: red;
+}
+.line:not(:nth-child(1)) {
+visibility: hidden;
+}
+.line:nth-child(1) {
+	width: 70px;
+	height: 50px;
+	margin-inline: auto;
+	text-align: center;
+	font-size: 35px;
+	font-family: "DM Sans";
+	vertical-align: middle;
+	color: #F0F0F6;
+}
+.line:nth-child(2) {
+	width: 20px;
+	height: 145px;
+	margin-inline: auto;
+}
+.line:nth-child(3) {
+	width: 250px;
+	height: 15px;
+	margin-left: 305px;
+}
+.line:nth-child(4) {
+	width: 15px;
+	height: 50px;
+	margin-left: 540px;
+}
+.line:nth-child(5) {
+	width: 350px;
+   height: 10px;
+   margin-left: 205px;
+}
+.line:nth-child(6) {
+	width: 10px;
+   height: 55px;
+   margin-left: 205px;
+}
+.line:nth-child(7) {
+	width: 220px;
+   height: 10px;
+   margin-left: 205px;
+}
+.line:nth-child(8) {
+   width: 7px;
+   height: 57px;
+   margin-left: 419px;
+}
+.line:nth-child(9) {
+    width: 200px;
+    height: 210px;
+    margin-left: 378px;
+	 background: url(../img/201700a7f112e6670bad5c62f91cc071_w200.gif) no-repeat;
+}
+
+
+
+
+.line:nth-child(1):hover ~ .line:nth-child(2),
+.line:nth-child(2):hover {
+    visibility: visible;
+}
+
+.line:nth-child(2):hover ~ .line:nth-child(3),
+.line:nth-child(3):hover {
+    visibility: visible;
+}
+
+.line:nth-child(3):hover ~ .line:nth-child(4),
+.line:nth-child(4):hover {
+    visibility: visible;
+}
+
+.line:nth-child(4):hover ~ .line:nth-child(5),
+.line:nth-child(5):hover {
+    visibility: visible;
+}
+
+.line:nth-child(5):hover ~ .line:nth-child(6),
+.line:nth-child(6):hover {
+    visibility: visible;
+}
+
+.line:nth-child(6):hover ~ .line:nth-child(7),
+.line:nth-child(7):hover {
+    visibility: visible;
+}
+
+.line:nth-child(7):hover ~ .line:nth-child(8),
+.line:nth-child(8):hover {
+    visibility: visible;
+}
+.line:nth-child(8):hover ~ .line:nth-child(9),
+.line:nth-child(9):hover {
+    visibility: visible;
+}
